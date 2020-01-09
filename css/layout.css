@@ -87,7 +87,8 @@ p{
   display: block;/*sets display to block*/
   margin-left: auto;/*automates margin left*/
   margin-right: auto;/*automates margin right*/
-  width: 50%;/*sets width of image*/
+  height: 500px;/*sets the images height*/
+  width: 900px;/*sets the images width*/
   border: 5px solid black;/*adds black border to image*/
   border-radius: 10px;/*sets border radius for images*/
 }
