@@ -1,8 +1,8 @@
 .ul {
-  list-style-type: none;
-  margin: 0;
+  list-style-type: none;/*removes any list style*/
+  margin: 0;/*removes any margin*/
   padding: 20; /*padding for nav bar*/
-  overflow: hidden;
+  overflow: hidden;/*makes overflow hidden*/
   background-color: #748; /*changes background to purple*/
 }
 
