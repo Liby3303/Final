@@ -1,125 +1,146 @@
 .ul {
   list-style-type: none;
   margin: 0;
-  padding: 20;
+  padding: 20; /*padding for nav bar*/
   overflow: hidden;
-  background-color: #748;
+  background-color: #748; /*changes background to purple*/
 }
 
 .ul2{
-  text-align: center;
-  padding: 50;
+  text-align: center; /*centers list*/
+  padding: 50; /* gives padding to smaller lists*/
 }
 
 .ul3{
-  padding-left: 110px;
+  padding-left: 110px; /*moves smaller list over to the right*/
 }
 
 
 .li {
-  float: left;
+  float: left; /*puts nav bar to the left of the screen*/
 }
 
 .li2{
-  padding: 50;
-  color: yellow;
-  font-size: 50px;
+  padding: 50; /*makes list items further apart*/
+  color: yellow;/*makes text yellow*/
+  font-size: 50px;/*makes font larger*/
 }
 
 .li3{
-  padding: 50;
-  color: yellow;
+  padding: 50;/*makes items further apart*/
+  color: yellow;/*makes text yellow*/
 }
 
 li a {
-  display: block;
-  color: yellow;
-  text-align: center;
-  padding: 24px 36px;
-  text-decoration: none;
+  display: block;/*makes nav bar appear in blocks design*/
+  color: yellow;/*changes text to yellow*/
+  text-align: center;/*centers text*/
+  padding: 24px 36px;/*moves list items to look nicer*/
+  text-decoration: none;/*removes any text decoration*/
 }
 
 li a:hover {
-  background-color: black;
+  background-color: black;/*makes nav bar item black when hovered over*/
 }
 
 body {
-  background-image: url("../images/background.png");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-image: url("../images/background.png");/*uses image for all page backgrounds*/
+  -webkit-background-size: cover;/*makes background cover whole screen*/
+  -moz-background-size: cover;/*makes background cover whole screen*/
+  -o-background-size: cover;/*makes background cover whole screen*/
+  background-size: cover;/*makes background cover whole screen*/
 }
 
 .title{
-  font-size: 100px;
-  color: yellow;
-  text-align: center;
+  font-size: 100px;/*make text larger*/
+  color: yellow;/*changes text to yellow*/
+  text-align: center;/*centers text*/
 }
 
 .me{
-  float: right;
-  padding-right: 8%;
-
+  border: 5px solid black;/*adds black border to image*/
+  border-radius: 10px;/*sets border radius for images*/
+  float: right;/*floats image right*/
+  margin: 5%;/*sets margin 5%*/
 }
+
 .sub-title{
-  color: yellow;
-  text-decoration: underline;
-  text-align: center;
+  color: yellow;/*makes text yellow*/
+  text-decoration: underline;/*underlines text*/
+  text-align: center;/*centers text*/
 }
 hr{
-  width: 75%;
+  width: 75%;/*makes line across screen wider*/
 }
 
+
 p{
-  padding-left: 95px;
-  color: yellow;
+  padding-left: 95px;/*pushes paragraphs to the right*/
+  color: yellow;/*makes parargraph text yellow*/
 }
 
 .pst{
-  text-align: center;
+  text-align: center;/*centers paragraph text*/
 }
 
-img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: 5px solid black;
-  border-radius: 10px;
+.imgf {
+  display: block;/*sets display to block*/
+  margin-left: auto;/*automates margin left*/
+  margin-right: auto;/*automates margin right*/
+  width: 50%;/*sets width of image*/
+  border: 5px solid black;/*adds black border to image*/
+  border-radius: 10px;/*sets border radius for images*/
 }
 
 .football {
-  text-align: center;
+  text-align: center;/*centers text for paragraph*/
 }
 
 .football2 {
-  font-size: 50px;
-  text-align: center;
+  font-size: 50px;/*makes text larger*/
+  text-align: center;/*centers text*/
 }
 
 .image1{
-  height: 500px;
-  width: 900px;
+  height: 500px;/*sets the images height*/
+  width: 900px;/*sets the images width*/
 }
 
 .image2{
-  height 500px;
-  width: 600px;
+  height 500px;/*sets the images height*/
+  width: 600px;/*sets the images width*/
 }
 
 table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 75%;
+  font-family: arial, sans-serif;/*sets font for tables*/
+  border-collapse: collapse;/*collapses border for list*/
+  width: 75%;/*width of table takes up 75% of the page's width*/
 }
 
 td, th {
-  border: 1px solid black;
-  text-align: center;
-  padding: 8px;
-  color: purple;
+  border: 1px solid black;/*makes table border black*/
+  text-align: center;/*centers text in table*/
+  padding: 8px;/*adds space in the boxes of tables*/
+  color: purple;/*makes text in table purple*/
 }
 
 tr:nth-child(even) {
-  background-color: white;
+  background-color: white;/*makes table background white*/
+}
+
+.box{
+    margin-right:20px;/*sets margin for iframes to the right*/
+}
+.clear{
+    clear:both;/*clears the iframes*/
+}
+
+.a{
+  color: yellow;/*makes text yellow for a tags*/
+}
+
+footer{
+  text-align: center;/* centers footer text*/
+  color: yellow;/*makes footer text yellow*/
+  font-style: italic;/*italicizes footer text*/
 }

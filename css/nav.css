@@ -1,47 +1,47 @@
 margin: 0;
-font-family: "Lato", sans-serif;
+font-family: "Lato", sans-serif;/*sets nav bar text*/
 }
 
 .sidebar {
-margin: 0px;
-padding: 0px;
-width: 200px;
-background-color: #f1f1f1;
-position: fixed;
-height: 100%;
-overflow: auto;
+margin: 0px;/*erases sidebar margin*/
+padding: 0px;/*erases sidebar padding*/
+width: 200px;/*puts nav bar width to 200px*/
+background-color: #f1f1f1;/*makes sidebar background white*/
+position: fixed;/*sets position of bar to fixed*/
+height: 100%;/*sets sidebar height*/
+overflow: auto;/*automates sidebar overflow*/
 }
 
 .sidebar a {
-display: block;
-color: black;
-padding: 14px 16px;
-text-decoration: none;
+display: block;/*sets display to block*/
+color: black;/*makes color black*/
+padding: 14px 16px;/*sets location on scree using padding*/
+text-decoration: none;/*removes any text decoration*/
 }
 
 .sidebar a.active {
-background-color: #4CAF50;
-color: white;
+background-color: #4CAF50;/*sets color to green*/
+color: white;/*sets color to white*/
 }
 
 .sidebar a:hover:not(.active) {
-background-color: #555;
-color: white;
+background-color: #555;/*sidebar haver color to grey*/
+color: white;/*default color to white*/
 }
 
 div.content {
-margin-left: 200px;
-padding: 1px 16px;
-height: 1000px;
+margin-left: 200px;/*div margin set to 200px*/
+padding: 1px 16px;/*positions padding for div*/
+height: 1000px;/*sets div height*/
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 700px) /*sets max width*/
 .sidebar {
-  width: 100%;
-  height: auto;
-  position: relative;
+  width: 100%;/*sets sidebar width to 100%*/
+  height: auto;/*sidebar height set to auto*/
+  position: relative;/*makes positio of sidebar relative to the screen*/
 }
-.sidebar a {float: left;}
+.sidebar a {float: left;}/*floats sidebar to the left*/
 div.content {margin-left: 0;}
 }
 
