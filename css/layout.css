@@ -144,3 +144,9 @@ footer{
   color: yellow;/*makes footer text yellow*/
   font-style: italic;/*italicizes footer text*/
 }
+
+iframe{
+  frameborder=0;
+  float:right;
+  width: 33%;
+}
