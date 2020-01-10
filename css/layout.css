@@ -155,3 +155,7 @@ iframe{
   float:right;
   width: 33%;
 }
+
+div{
+  align: center;
+}
