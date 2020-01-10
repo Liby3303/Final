@@ -83,7 +83,7 @@ p{
   text-align: center;/*centers paragraph text*/
 }
 
-img {
+.imgf {
   display: block;/*sets display to block*/
   margin-left: auto;/*automates margin left*/
   margin-right: auto;/*automates margin right*/
