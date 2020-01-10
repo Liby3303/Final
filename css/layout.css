@@ -83,7 +83,7 @@ p{
   text-align: center;/*centers paragraph text*/
 }
 
-.imgf {
+img {
   display: block;/*sets display to block*/
   margin-left: auto;/*automates margin left*/
   margin-right: auto;/*automates margin right*/
@@ -102,14 +102,15 @@ p{
   text-align: center;/*centers text*/
 }
 
-.image1{
-  height: 500px;/*sets the images height*/
-  width: 900px;/*sets the images width*/
-}
 
 .image2{
+  display: block;/*sets display to block*/
+  margin-left: auto;/*automates margin left*/
+  margin-right: auto;/*automates margin right*/
   height 500px;/*sets the images height*/
   width: 600px;/*sets the images width*/
+  border: 5px solid black;/*adds black border to image*/
+  border-radius: 10px;/*sets border radius for images*/
 }
 
 table {
